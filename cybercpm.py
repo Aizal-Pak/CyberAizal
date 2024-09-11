@@ -6,9 +6,9 @@ from time import sleep
 # Proprietary and confidential
 # Written by Lynx <DPR_LynX_Lovers>, 09, juli, 2024.
 
-BASE_URL: str = "https://cybercpm.store/api"
+BASE_URL: str = "https://cpmnuker.anasov.ly/api"
 
-class CyberCPM:
+class CPMNuker:
 
     def __init__(self, access_key) -> None:
         self.auth_token = None
